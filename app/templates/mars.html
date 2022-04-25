@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% block title %}Mars{% endblock %}
+
+{% block content %}
+  <h1 class="display-4">Photos from Mars:</h1>
+  <img src="{{ landing_image }}">
+  <a href="/mars?camera=MAST" >
+    Mast camera
+  </a>
+
+  <a href="/mars?camera=RHAZ" >
+    Rear Hazard Camera
+  </a>
+{% endblock %}
